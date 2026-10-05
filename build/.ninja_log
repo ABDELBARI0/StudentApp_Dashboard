@@ -1,0 +1,31 @@
+# ninja log v7
+21	2877	8127366514255370	StudentApp_autogen/timestamp	a4a964baa7fd5a73
+21	2877	8127366514255370	StudentApp_autogen/mocs_compilation.cpp	a4a964baa7fd5a73
+21	2877	8127366514255370	C:/Users/computer/Desktop/Qt Dashboard Test/StudentApp/build/StudentApp_autogen/timestamp	a4a964baa7fd5a73
+21	2877	8127366514255370	C:/Users/computer/Desktop/Qt Dashboard Test/StudentApp/build/StudentApp_autogen/mocs_compilation.cpp	a4a964baa7fd5a73
+2883	2959	8127366515479036	StudentApp_autogen/3YJK5W5UP7/qrc_resources.cpp	ea2c811ee6335de1
+2883	2959	8127366515479036	C:/Users/computer/Desktop/Qt Dashboard Test/StudentApp/build/StudentApp_autogen/3YJK5W5UP7/qrc_resources.cpp	ea2c811ee6335de1
+2996	3162	8127366515969064	CMakeFiles/StudentApp.dir/StudentApp_autogen/3YJK5W5UP7/qrc_resources.cpp.obj	a3b862f88be37bf3
+2976	5049	8127366515769033	CMakeFiles/StudentApp.dir/src/StudentProxy.cpp.obj	f1e08f0b956e6236
+2969	5090	8127366515699058	CMakeFiles/StudentApp.dir/src/StudentModel.cpp.obj	3d84ee9211afc7ad
+2964	5337	8127366515649055	CMakeFiles/StudentApp.dir/src/main.cpp.obj	7f6579039d14ae6
+2983	5471	8127366515839041	CMakeFiles/StudentApp.dir/src/GenderBadgeDelegate.cpp.obj	9741d0056dd583f5
+2960	5605	8127366515609033	CMakeFiles/StudentApp.dir/StudentApp_autogen/mocs_compilation.cpp.obj	2321e5c2eb19ed04
+2989	6581	8127366515899053	CMakeFiles/StudentApp.dir/src/MainWindow.cpp.obj	59428828787b4f29
+6582	6871	8127366551829742	StudentApp.exe	a6073f7bc65b6cd
+20	497	8127376862741102	build.ninja	44a7cbc5b3545869
+20	497	8127376862741102	C:/Users/computer/Desktop/Qt Dashboard Test/StudentApp/build/cmake_install.cmake	44a7cbc5b3545869
+28	717	8127376869753548	StudentApp_autogen/timestamp	a4a964baa7fd5a73
+28	717	8127376869753548	StudentApp_autogen/mocs_compilation.cpp	a4a964baa7fd5a73
+28	717	8127376869753548	C:/Users/computer/Desktop/Qt Dashboard Test/StudentApp/build/StudentApp_autogen/timestamp	a4a964baa7fd5a73
+28	717	8127376869753548	C:/Users/computer/Desktop/Qt Dashboard Test/StudentApp/build/StudentApp_autogen/mocs_compilation.cpp	a4a964baa7fd5a73
+718	797	8127376870978563	StudentApp_autogen/3YJK5W5UP7/qrc_resources.cpp	ea2c811ee6335de1
+718	797	8127376870978563	C:/Users/computer/Desktop/Qt Dashboard Test/StudentApp/build/StudentApp_autogen/3YJK5W5UP7/qrc_resources.cpp	ea2c811ee6335de1
+830	940	8127376871418586	CMakeFiles/StudentApp.dir/StudentApp_autogen/3YJK5W5UP7/qrc_resources.cpp.obj	a3b862f88be37bf3
+813	2781	8127376871248617	CMakeFiles/StudentApp.dir/src/StudentProxy.cpp.obj	f1e08f0b956e6236
+802	3025	8127376871148589	CMakeFiles/StudentApp.dir/src/main.cpp.obj	7f6579039d14ae6
+808	3067	8127376871198596	CMakeFiles/StudentApp.dir/src/StudentModel.cpp.obj	3d84ee9211afc7ad
+818	3316	8127376871298594	CMakeFiles/StudentApp.dir/src/StudentDialog.cpp.obj	bffdcef118d48a6b
+798	3487	8127376871098584	CMakeFiles/StudentApp.dir/StudentApp_autogen/mocs_compilation.cpp.obj	2321e5c2eb19ed04
+824	3932	8127376871358591	CMakeFiles/StudentApp.dir/src/MainWindow.cpp.obj	59428828787b4f29
+3932	4148	8127376902445746	StudentApp.exe	f07816127f9ba616

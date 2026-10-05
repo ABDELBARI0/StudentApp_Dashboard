@@ -1,0 +1,237 @@
+/* StudentApp dark theme — centralized styling.
+   Palette:
+   background #0F172A | cards #1E293B | accent #3B82F6
+   text #F8FAFC | secondary #94A3B8 */
+
+QMainWindow, QWidget#AppRoot {
+    background-color: #0F172A;
+    color: #F8FAFC;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-size: 14px;
+}
+
+/* ---------- Toolbar ---------- */
+QWidget#Toolbar {
+    background-color: #0F172A;
+    border-bottom: 1px solid #1F2A3D;
+}
+QLabel#PageTitle {
+    color: #F8FAFC;
+    font-size: 22px;
+    font-weight: 700;
+}
+QLabel#PageSubtitle {
+    color: #94A3B8;
+    font-size: 13px;
+}
+QLineEdit#SearchBox {
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 9px;
+    color: #F8FAFC;
+    padding: 7px 12px;
+    min-width: 230px;
+    selection-background-color: #3B82F6;
+}
+QLineEdit#SearchBox:focus {
+    border: 1px solid #3B82F6;
+}
+QLineEdit#SearchBox::placeholder {
+    color: #64748B;
+}
+QComboBox#GenderCombo {
+    background-color: #1E293B;
+    border: 1px solid #334155;
+    border-radius: 9px;
+    color: #F8FAFC;
+    padding: 7px 12px;
+    min-width: 120px;
+}
+QComboBox#GenderCombo:hover {
+    border: 1px solid #3B82F6;
+}
+QComboBox#GenderCombo QAbstractItemView {
+    background-color: #1E293B;
+    color: #F8FAFC;
+    selection-background-color: #3B82F6;
+    border: 1px solid #334155;
+}
+
+/* ---------- Card ---------- */
+QFrame#Card {
+    background-color: #1E293B;
+    border: 1px solid #2B3A55;
+    border-radius: 14px;
+}
+QLabel#CardTitle {
+    color: #F8FAFC;
+    font-size: 16px;
+    font-weight: 700;
+}
+QLabel#CardSubtitle {
+    color: #94A3B8;
+    font-size: 12px;
+}
+QLabel#RecordCount {
+    color: #94A3B8;
+    font-size: 12px;
+    background-color: #0F172A;
+    border: 1px solid #334155;
+    border-radius: 7px;
+    padding: 4px 12px;
+}
+QLabel#EmptyState {
+    color: #64748B;
+    font-size: 14px;
+}
+
+/* ---------- Table ---------- */
+QTableView#StudentTable {
+    background-color: #1E293B;
+    alternate-background-color: #1A2438;
+    color: #F8FAFC;
+    border: none;
+    gridline-color: #2B3A55;
+    font-size: 13px;
+    selection-background-color: #26406E;
+    selection-color: #FFFFFF;
+    outline: 0;
+}
+QTableView#StudentTable::item {
+    padding: 6px 4px;
+    border-bottom: 1px solid #2B3A55;
+}
+QTableView#StudentTable::item:selected {
+    background-color: #26406E;
+}
+QHeaderView::section {
+    background-color: #1E293B;
+    color: #94A3B8;
+    border: none;
+    border-bottom: 1px solid #334155;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 10px 4px;
+}
+QTableCornerButton::section {
+    background-color: #1E293B;
+    border: none;
+}
+
+/* ---------- Buttons ---------- */
+QPushButton#PrimaryButton {
+    background-color: #3B82F6;
+    border: 1px solid #3B82F6;
+    border-radius: 9px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+QPushButton#PrimaryButton:hover {
+    background-color: #2563EB;
+    border: 1px solid #2563EB;
+}
+QPushButton#ToolButton {
+    background: transparent;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #94A3B8;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 14px;
+}
+QPushButton#ToolButton:hover:!disabled {
+    color: #F8FAFC;
+    border: 1px solid #3B82F6;
+}
+QPushButton#ToolButton:disabled, QPushButton#DangerButton:disabled {
+    color: #475569;
+    border: 1px solid #243145;
+}
+QPushButton#DangerButton {
+    background: transparent;
+    border: 1px solid #7F2D2D;
+    border-radius: 8px;
+    color: #F87171;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 14px;
+}
+QPushButton#DangerButton:hover:!disabled {
+    background-color: #EF4444;
+    border: 1px solid #EF4444;
+    color: #FFFFFF;
+}
+
+/* ---------- Dialog form ---------- */
+QDialog#StudentDialog {
+    background-color: #1E293B;
+    border: 1px solid #2B3A55;
+}
+QLineEdit#FormField, QSpinBox#FormField {
+    background-color: #0F172A;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #F8FAFC;
+    padding: 7px 10px;
+    selection-background-color: #3B82F6;
+}
+QLineEdit#FormField:focus, QSpinBox#FormField:focus {
+    border: 1px solid #3B82F6;
+}
+QLineEdit#FormField:read-only {
+    color: #94A3B8;
+    background-color: #16203200;
+}
+QLabel#ErrorLabel {
+    color: #F87171;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* ---------- Message box ---------- */
+QMessageBox {
+    background-color: #1E293B;
+}
+QMessageBox QLabel {
+    color: #F8FAFC;
+}
+QMessageBox QPushButton {
+    background: transparent;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #F8FAFC;
+    font-weight: 600;
+    padding: 6px 18px;
+    min-width: 60px;
+}
+QMessageBox QPushButton:hover {
+    border: 1px solid #3B82F6;
+}
+
+/* ---------- Scrollbars ---------- */
+QScrollBar:vertical {
+    background: transparent;
+    width: 10px;
+    margin: 2px;
+}
+QScrollBar::handle:vertical {
+    background: #334155;
+    border-radius: 5px;
+    min-height: 30px;
+}
+QScrollBar::handle:vertical:hover { background: #3B82F6; }
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical { height: 0; }
+QScrollBar:horizontal {
+    background: transparent;
+    height: 10px;
+    margin: 2px;
+}
+QScrollBar::handle:horizontal {
+    background: #334155;
+    border-radius: 5px;
+    min-width: 30px;
+}
+QScrollBar::handle:horizontal:hover { background: #3B82F6; }
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal { width: 0; }
